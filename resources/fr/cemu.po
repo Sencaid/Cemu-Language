@@ -2,15 +2,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Cemu\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2026-02-02 18:38+0100\n"
+"PO-Revision-Date: 2026-02-23 20:18+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.7\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.8\n"
 
 #: src/Cemu/Tools/DownloadManager/DownloadManager.cpp:334
 msgid "Downloading account ticket"
@@ -45,8 +45,7 @@ msgstr "Connexion..."
 #: src/Cemu/Tools/DownloadManager/DownloadManager.cpp:625
 msgid "Login failed. Outdated or incomplete online files?"
 msgstr ""
-"La connection a échoué. Les fichiers en-ligne sont-ils périmés ou "
-"incomplets ?"
+"La connexion a échoué. Les fichiers en-ligne sont-ils périmés ou incomplets ?"
 
 #: src/Cemu/Tools/DownloadManager/DownloadManager.cpp:633
 msgid "Failed to query account status"
@@ -619,11 +618,11 @@ msgstr "Exporte la sauvegarde sélectionnée en fichier compressé ZIP"
 
 #: src/gui/wxgui/TitleManager.cpp:178
 msgid "Connect"
-msgstr "Connection"
+msgstr "Connecter"
 
 #: src/gui/wxgui/TitleManager.cpp:186
 msgid "Select an account and press Connect"
-msgstr "Sélectionnez un compte et appuyez sur Connection"
+msgstr "Sélectionnez un compte et appuyez sur Connecter"
 
 #: src/gui/wxgui/TitleManager.cpp:190
 msgid ""
@@ -636,8 +635,7 @@ msgstr ""
 
 #: src/gui/wxgui/TitleManager.cpp:194
 msgid "Click on Connect to load the list of downloadable titles"
-msgstr ""
-"Cliquez sur Connection pour charger la liste des titres téléchargeables"
+msgstr "Cliquez sur Connecter pour charger la liste des titres téléchargeables"
 
 #: src/gui/wxgui/TitleManager.cpp:203
 msgid "Show available titles"
@@ -776,7 +774,7 @@ msgstr "Entrez une adresse cible."
 #: src/gui/wxgui/debugger/DumpCtrl.cpp:196
 #: src/gui/wxgui/debugger/DisasmCtrl.cpp:851
 msgid "GoTo address"
-msgstr "GoTo adresse"
+msgstr "Aller à l'adresse"
 
 #: src/gui/wxgui/debugger/ModuleWindow.cpp:22
 msgid "Modules"
@@ -876,7 +874,7 @@ msgstr "Définir le point d'arrêt"
 
 #: src/gui/wxgui/debugger/DebuggerWindow2.cpp:235
 msgid "GoTo (CTRL + G)"
-msgstr "GoTo (CTRL + G)"
+msgstr "Aller à (CTRL + G)"
 
 #: src/gui/wxgui/debugger/DebuggerWindow2.cpp:239
 msgid "Toggle Breakpoint (F9)"
@@ -1049,11 +1047,11 @@ msgstr "&Copier"
 
 #: src/gui/wxgui/debugger/RegisterWindow.cpp:430
 msgid "&Goto Disasm"
-msgstr "&Goto Disasm"
+msgstr "&Aller au Disasm"
 
 #: src/gui/wxgui/debugger/RegisterWindow.cpp:431
 msgid "G&oto Dump"
-msgstr "G&oto Dump"
+msgstr "A&ller au Dump"
 
 #: src/gui/wxgui/debugger/SymbolCtrl.cpp:30
 msgid "Module"
@@ -1325,8 +1323,8 @@ msgstr "Emplacement"
 
 #: src/gui/wxgui/components/wxTitleManagerList.cpp:311
 msgid ""
-"The following content will be converted to a compressed Wii U archive file (."
-"wua):"
+"The following content will be converted to a compressed Wii U archive file "
+"(.wua):"
 msgstr "Ce contenu sera converti en un fichier Wii U compressé (.wua) :"
 
 #: src/gui/wxgui/components/wxTitleManagerList.cpp:315
@@ -2469,7 +2467,7 @@ msgstr ""
 
 #: src/gui/wxgui/ChecksumTool.cpp:587
 msgid "Your game files are valid"
-msgstr "Les fichiers de votre jeu ne sont pas valides"
+msgstr "Les fichiers de votre jeu sont valides"
 
 #: src/gui/wxgui/ChecksumTool.cpp:591
 msgid "JSON parse error: {}"
@@ -3801,8 +3799,8 @@ msgstr "Connecter au service Pretendo Network"
 msgid ""
 "Connect to a custom Network Service (configured via network_services.xml)"
 msgstr ""
-"Connecter à un service Network personnalisé (configuré via network_services."
-"xml)"
+"Connecter à un service Network personnalisé (configuré via "
+"network_services.xml)"
 
 #: src/gui/wxgui/GeneralSettings2.cpp:915
 msgid "Online play requirements"
@@ -4300,7 +4298,7 @@ msgstr "Teste si la manette est connectée"
 #: src/gui/wxgui/input/InputSettings2.cpp:632
 #: src/gui/wxgui/input/InputSettings2.cpp:664
 msgid "invalid profile name"
-msgstr "Nom de profil non valide"
+msgstr "Nom de profil invalide"
 
 #: src/gui/wxgui/input/InputSettings2.cpp:605
 msgid "profile loaded"
@@ -4799,8 +4797,8 @@ msgstr "Code d'erreur"
 #~ msgstr ""
 #~ "Le chemin des jeux est analysé par Cemu pour localiser vos jeux. Nous "
 #~ "recommandons de créer un dossier dédié\n"
-#~ "dans lequel vous placerez tous vos jeux Wii U (exemple : C:\\wiiu\\jeux"
-#~ "\\).\n"
+#~ "dans lequel vous placerez tous vos jeux Wii U (exemple : C:"
+#~ "\\wiiu\\jeux\\).\n"
 #~ "\n"
 #~ "Vous pourrez également ajouter des chemins supplémentaires dans les "
 #~ "paramètres de Cemu."
